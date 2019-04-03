@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Animator
+comment1.params=
+comment1.target=Animator()
+comment2.params=fileNames\ frameDuration\ loop
+comment2.target=Animator(java.lang.String[],\ float,\ boolean)
+comment2.text=\r\n\ Creates\ an\ animation\ from\ images\ stored\ in\ separate\ files.\r\n\ @param\ fileNames\ array\ of\ names\ of\ files\ containing\ animation\ images\r\n\ @param\ frameDuration\ how\ long\ each\ frame\ should\ be\ displayed\r\n\ @param\ loop\ should\ the\ animation\ loop\r\n\ @return\ animation\ created\ (useful\ for\ storing\ multiple\ animations)\r\n
+comment3.params=fileName\ rows\ cols\ frameDuration\ loop
+comment3.target=Animator(java.lang.String,\ int,\ int,\ float,\ boolean)
+comment3.text=\r\n\ Creates\ an\ animation\ from\ a\ spritesheet\:\ a\ rectangular\ grid\ of\ images\ stored\ in\ a\ single\ file.\r\n\ @param\ fileName\ name\ of\ file\ containing\ spritesheet\r\n\ @param\ rows\ number\ of\ rows\ of\ images\ in\ spritesheet\r\n\ @param\ cols\ number\ of\ columns\ of\ images\ in\ spritesheet\r\n\ @param\ frameDuration\ how\ long\ each\ frame\ should\ be\ displayed\r\n\ @param\ loop\ should\ the\ animation\ loop\r\n\ @return\ animation\ created\ (useful\ for\ storing\ multiple\ animations)\r\n
+comment4.params=fileName
+comment4.target=Animator(java.lang.String)
+comment4.text=\r\n\ \ Convenience\ method\ for\ creating\ a\ 1-frame\ animation\ from\ a\ single\ texture.\r\n\ \ @param\ fileName\ names\ of\ image\ file\r\n\ \ @return\ animation\ created\ (useful\ for\ storing\ multiple\ animations)\r\n
+comment5.params=pause
+comment5.target=void\ setAnimationPaused(boolean)
+comment5.text=\r\n\ \ Set\ the\ pause\ state\ of\ the\ animation.\r\n\ \ @param\ pause\ true\ to\ pause\ animation,\ false\ to\ resume\ animation\r\n
+comment6.params=
+comment6.target=boolean\ isAnimationFinished()
+comment6.text=\r\n\ \ Checks\ if\ animation\ is\ complete\:\ if\ play\ mode\ is\ normal\ (not\ looping)\r\n\ \ \ \ \ \ and\ elapsed\ time\ is\ greater\ than\ time\ corresponding\ to\ last\ frame.\r\n\ \ @return\ \r\n
+comment7.params=deltaTime
+comment7.target=void\ update(float)
+comment7.text=\r\n\ \ Update\ the\ state\ of\ the\ animation\ (elapsed\ time)\r\n
+comment8.params=
+comment8.target=com.badlogic.gdx.graphics.g2d.TextureRegion\ getKeyFrame()
+numComments=9
