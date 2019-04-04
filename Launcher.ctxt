@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Launcher
+comment0.text=\r\n\ <p>Class\ that\ contains\ the\ main\ method\ that\ runs\ when\ the\ program\ is\ launched.</p>\r\n\ \r\n\ @author\ \ \r\n\ @version\ April\ 1,\ 2019\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ <p>The\ main\ fuction\ used\ when\ launching\ the\ program.</p>\r\n\ \r\n\ @param\ \ \ args\ \ \ \ An\ array\ of\ Strings\ used\ as\ custom\ arguments.\r\n
+numComments=2

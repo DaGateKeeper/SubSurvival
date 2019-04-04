@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Submarine
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Submarine\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x\ y\ stage
+comment1.target=Submarine(float,\ float,\ com.badlogic.gdx.scenes.scene2d.Stage)
+comment2.params=dt
+comment2.target=void\ act(float)
+numComments=3

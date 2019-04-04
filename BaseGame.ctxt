@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BaseGame
+comment0.text=\r\n\ \ Created\ when\ program\ is\ launched;\ \r\n\ \ manages\ the\ screens\ that\ appear\ during\ the\ game.\r\n
+comment1.params=
+comment1.target=BaseGame()
+comment1.text=\r\n\ \ Called\ when\ game\ is\ initialized;\ stores\ global\ reference\ to\ game\ object.\r\n
+comment2.params=
+comment2.target=void\ create()
+comment2.text=\r\n\ \ Called\ when\ game\ is\ initialized,\ \r\n\ \ after\ Gdx.input\ and\ other\ objects\ have\ been\ initialized.\r\n
+comment3.params=s
+comment3.target=void\ setActiveScreen(BaseScreen)
+comment3.text=\r\n\ \ Used\ to\ switch\ screens\ while\ game\ is\ running.\r\n\ \ Method\ is\ static\ to\ simplify\ usage.\r\n
+numComments=4

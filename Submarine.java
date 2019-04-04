@@ -1,3 +1,5 @@
+    import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 
 /**
  * Write a description of class Submarine here.
@@ -5,29 +7,25 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Submarine
+public class Submarine extends BaseActor
 {
-    // instance variables - replace the example below with your own
-    private int x;
 
-    /**
-     * Constructor for objects of class Submarine
-     */
-    public Submarine()
+    public Submarine(float x, float y, Stage stage)
     {
-        // initialise instance variables
-        x = 0;
+        super(x,y,stage);
+
+        setAnimator( new Animator("INSERT NAME HERE") );
+        setBoundaryPolygon(10);
+        
+        physics = new Physics(2000, 800, 8000);
+        
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    public void act(float dt)
     {
-        // put your code here
-        return x + y;
+        super.act(dt);
+        
+       
     }
 }
+ 
