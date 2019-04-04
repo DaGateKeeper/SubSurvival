@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.target=Wall
-comment1.params=x\ y\ stage
-comment1.target=Wall(float,\ float,\ com.badlogic.gdx.scenes.scene2d.Stage)
-numComments=2
