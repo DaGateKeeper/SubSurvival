@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=LevelScreen
-comment1.params=
-comment1.target=void\ initialize()
-comment2.params=deltaTime
-comment2.target=void\ update(float)
-numComments=3
