@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Item
-comment1.params=x\ y\ stage
-comment1.target=Item(float,\ float,\ com.badlogic.gdx.scenes.scene2d.Stage)
-comment2.params=dt
-comment2.target=void\ act(float)
-numComments=3
